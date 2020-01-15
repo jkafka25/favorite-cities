@@ -8,7 +8,7 @@
 
 import UIKit
 
-class city: Codable {
+class City: Codable {
     
     var name : String
     var state :  String
@@ -16,8 +16,9 @@ class city: Codable {
     var image : Data
     
     init(name: String, state: String, population: Int, image: Data) {
-    self.name = name
-    self.state = state
-    self.population = population
-    self.image = image
+        self.name = name
+        self.state = state
+        self.population = population
+        self.image = image
+    }
 }
